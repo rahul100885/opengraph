@@ -10,11 +10,11 @@ begin
     gem.email = "michael@intridea.com"
     gem.homepage = "http://github.com/intridea/opengraph"
     gem.authors = ["Michael Bleigh"]
-    gem.add_dependency 'hashie'
-    gem.add_dependency 'nokogiri', '~> 1.5.0'
-    gem.add_dependency 'rest-client', '~> 1.6.0'
-    gem.add_development_dependency "rspec", ">= 2.0.0"
-    gem.add_development_dependency 'webmock'
+    gem.add_dependency 'hashie', '~> 3.4'
+    gem.add_dependency 'nokogiri', '~> 1.6', '>= 1.6.6'
+    gem.add_dependency 'rest-client', '~> 1.8'
+    gem.add_development_dependency 'rspec', '~> 3.2'
+    gem.add_development_dependency 'webmock', '~> 1.21'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
